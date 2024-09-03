@@ -1,4 +1,3 @@
-const print = require('../../src/server/util/print-log')
 class BuildDonePlugin {
 	constructor(options) {
 		this.options = { ...options }
@@ -11,7 +10,7 @@ class BuildDonePlugin {
 		// 在编译完成时计算耗时
 		compiler.hooks.done.tapAsync('BuildDonePlugin', (compilation, callback) => {
 			const duration = Date.now() - this.startTime
-			print.info(`---- 构建完成 ----`)
+			console.info(`---- 构建完成 ----`)
 			// 必须执行此回调，否则会一直等待
 			callback()
 		})
