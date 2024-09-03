@@ -1,0 +1,87 @@
+.weather {
+	padding: 15px 15px 10px;
+	white-space: pre-wrap;
+
+	.cityname {
+		font-weight: bold;
+	}
+
+	.title,
+	.cityname,
+	.temperature,
+	.detaillist,
+	.info-item {
+		display: flex;
+		align-items: center;
+	}
+
+	.title {
+		font-size: 14px;
+		justify-content: space-between;
+
+		.locicon {
+			display: block;
+			width: 20px;
+			height: 20px;
+			background-image: url('../../assets/img/location.png');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-color: #fbfafa;
+			margin-right: 5px;
+		}
+	}
+
+	.temperature {
+		height: 100px;
+		font-size: 48px;
+		font-weight: bold;
+		justify-content: center;
+
+		.unit {
+			font-size: 20px;
+			margin-left: 5px;
+			margin-top: -15px;
+		}
+	}
+
+	.detaillist {
+		margin-top: 20px;
+		justify-content: space-between;
+		font-size: 14px;
+
+		.info-item {
+			height: 90px;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.icon-yudi,
+		.icon-qiya,
+		.icon-shidu,
+		.icon-fengsu {
+			width: 30px;
+			height: 30px;
+			// background-color: #fbfafa;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+
+		.icon-yudi {
+			background-image: url('../../assets/img/yudi.png');
+		}
+
+		.icon-qiya {
+			background-image: url('../../assets/img/qiya.png');
+		}
+
+		.icon-shidu {
+			background-image: url('../../assets/img/shidu.png');
+		}
+
+		.icon-fengsu {
+			background-image: url('../../assets/img/fengsu.png');
+		}
+
+	}
+
+}

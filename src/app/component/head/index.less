@@ -1,0 +1,46 @@
+/** @format */
+@hig: 44px;
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: @hig;
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+	color: #6f6b6b;
+	font-size: 14px;
+	font-weight: 400;
+	border-bottom: 1px solid #f0eeee;
+	background-color: #ffffff;
+
+	.logo {
+		background-image: url(//p1.meituan.net/travelcube/9942ba7948169c40b4ab4ea0cfda39a47946.png);
+		background-size: 100%;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		border: 1px solid #f5f5f5;
+		overflow: hidden;
+	}
+
+	.title {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.time {
+		cursor: pointer;
+	}
+}
+
+.headerbox {
+	height: @hig;
+}
