@@ -7,7 +7,7 @@ import '../style/note.less'
 export function Note() {
 	return (
 		<>
-			<Head title="武汉旅游" />
+			<Head title="Note" />
 			<TripDetail />
 			<Foot />
 		</>

@@ -9,9 +9,9 @@ export default function Foot(): ReactElement {
 					className="link"
 					rel="noopener noreferrer"
 					target="_blank"
-					href="https://github.com/xmyxm/react-isomorphism"
+					href="https://github.com/xmyxm/react-static"
 				>
-					React Rematch SSR（github link）
+					React static（github link）
 				</a>
 			</footer>
 		</div>
