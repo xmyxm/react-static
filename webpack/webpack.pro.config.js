@@ -1,7 +1,6 @@
 const TerserPlugin = require('terser-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin') //webpack插件，用于清除目录文件
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 const config = require('./webpack.base.config.js')
 
 config.output.publicPath = '/'
@@ -93,8 +92,6 @@ config.plugins.push(
 	new MiniCssExtractPlugin({
 		filename: 'css/[name].[contenthash].css',
 	}),
-	// 体积分析插件
-	new BundleAnalyzerPlugin(),
 )
 
 config.optimization = {

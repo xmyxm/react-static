@@ -90,14 +90,9 @@
 		"webpack": "^5.91.0",
 		"webpack-bundle-analyzer": "^4.10.2",
 		"webpack-cli": "^5.1.4",
-		"webpack-dev-middleware": "^7.2.1",
-		"webpack-dev-server": "^5.0.4",
-		"webpack-hot-middleware": "^2.26.1",
-		"webpack-node-externals": "^3.0.0"
+		"webpack-dev-server": "^5.1.0"
 	},
 	"dependencies": {
-		"lz-string": "^1.4.4",
-		"markdown-it": "^12.3.0",
 		"prop-types": "^15.7.2",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
