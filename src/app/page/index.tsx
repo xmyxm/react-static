@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import { useEffect } from 'react'
+import useIndexStore from '../store/index'
 import Head from '../component/head'
 import Foot from '../component/foot'
-import useIndexStore from '../store/index'
 import '../style/index.less'
 
 export function Index() {
